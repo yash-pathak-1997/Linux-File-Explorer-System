@@ -2,6 +2,12 @@
 
 The File Explorer application works in two modes: Normal mode and Command mode. This document provides an overview of the features and functionality of each mode.
 
+The application display data starting from the top-left corner of the terminal window, line-by- line.
+
+The application also handles text rendering if the terminal window is resized.
+
+The last line of the display screen is to be used as a status bar.
+
 ## Normal Mode
 
 Normal mode is the default mode of the application and is used for exploring the current directory and navigating the filesystem.
